@@ -1,0 +1,371 @@
+<!DOCTYPE html><html lang="en"><head><title>UniNest Case Study — Moamen Hammouda</title><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-lowest":"#ffffff","outline":"#737785","on-surface":"#191c1e","error":"#ba1a1a","tertiary-fixed":"#ffdbcf","surface-tint":"#0056d2","on-tertiary-fixed-variant":"#812800","background":"#f8f9fb","surface-container":"#edeef0","inverse-surface":"#2e3132","on-tertiary-container":"#ffcebd","on-primary":"#ffffff","error-container":"#ffdad6","on-secondary-fixed":"#1c1b1b","surface-white":"#FFFFFF","surface-container-highest":"#e1e2e4","inverse-primary":"#b2c5ff","on-secondary-fixed-variant":"#474646","on-surface-variant":"#424654","deep-accent":"#003B95","primary-fixed-dim":"#b2c5ff","secondary-fixed-dim":"#c8c6c5","secondary":"#5f5e5e","on-primary-container":"#ccd8ff","inverse-on-surface":"#f0f1f3","outline-variant":"#c3c6d6","on-primary-fixed":"#001847","border-subtle":"#E2E4E9","surface-variant":"#e1e2e4","on-secondary-container":"#656464","surface-dim":"#d9dadc","tertiary":"#822800","on-tertiary":"#ffffff","on-error":"#ffffff","primary-container":"#0056d2","secondary-container":"#e5e2e1","on-error-container":"#93000a","surface-bright":"#f8f9fb","secondary-fixed":"#e5e2e1","tertiary-container":"#a93802","surface-container-high":"#e7e8ea","surface":"#f8f9fb","tertiary-fixed-dim":"#ffb59b","on-tertiary-fixed":"#380d00","primary":"#0040a1","on-secondary":"#ffffff","on-background":"#191c1e","primary-fixed":"#dae2ff","on-primary-fixed-variant":"#0040a1","surface-container-low":"#f3f4f6"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"16px","xxl":"48px","margin-desktop":"64px","unit":"8px","xs":"4px","gutter":"24px","lg":"24px","sm":"8px","md":"16px","xl":"32px"},"fontFamily":{"body-lg":["Inter"],"body-md":["Inter"],"caption":["Inter"],"headline-lg-mobile":["Inter"],"headline-md":["Inter"],"display-lg":["Inter"],"label-md":["Inter"],"headline-lg":["Inter"]},"fontSize":{"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"caption":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"700"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}]}}}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=JetBrains+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><meta content="web_standard" name="shell-type"></head><bodyclass="pb-14 md:pb-0" class="bg-surface-white font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-inverse-surface border-b border-inverse-surface/80"><div class="h-16 max-w-7xl mx-auto px-margin-desktop flex items-center justify-between"><a class="flex items-center gap-xs focus:outline-none" data-path="overview" href="index.html"><span class="font-headline-md text-headline-md text-on-primary tracking-tight whitespace-nowrap">Moamen Hammouda</span><span class="text-primary-fixed-dim text-label-md font-mono tracking-wide whitespace-nowrap">/ DEV_ARCHITECT</span></a><nav class="hidden md:flex items-center gap-xl"><a class="font-label-md text-label-md text-inverse-on-surface/80 hover:text-on-primary py-xs transition-colors whitespace-nowrap" href="index.html">Overview</a><a class="font-label-md text-label-md text-inverse-on-surface/80 hover:text-on-primary py-xs transition-colors whitespace-nowrap" href="experience.html">Experience</a><a aria-current="page" class="py-xs transition-colors text-on-primary font-bold border-b-2 border-primary-fixed whitespace-nowrap" href="projects.html">Projects</a><a class="font-label-md text-label-md text-inverse-on-surface/80 hover:text-on-primary py-xs transition-colors whitespace-nowrap" href="services.html">Services</a><a class="font-label-md text-label-md text-inverse-on-surface/80 hover:text-on-primary py-xs transition-colors whitespace-nowrap" href="about.html">About</a><a class="font-label-md text-label-md text-inverse-on-surface/80 hover:text-on-primary py-xs transition-colors whitespace-nowrap" href="contact.html">Contact</a></nav><div class="flex items-center gap-md"><a class="inline-flex items-center justify-center whitespace-nowrap bg-primary-container text-on-primary px-lg py-xs rounded-DEFAULT font-label-md text-label-md hover:bg-deep-accent transition-all shadow-sm" href="contact.html">Hire Me</a><div class="relative flex items-center justify-center"><img alt="Moamen Hammouda" class="w-8 h-8 rounded-full object-cover border border-outline-variant/30" src="assets/avatar.jpg"><span class="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-[#10b981] border-2 border-inverse-surface"></span></div></div></div></header><main class="w-full pt-16 bg-surface-white min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Architectural Context Bar -->
+<section class="w-full bg-surface-container-lowest border-b border-border-subtle py-md">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-wrap items-center justify-between gap-sm">
+<div class="flex items-center gap-xs font-mono text-caption text-primary uppercase tracking-widest font-semibold">
+<span class="">ARCH_SPEC_ID</span>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface-variant font-normal">UNINEST</span>
+<span class="text-outline-variant">/</span>
+<span class="text-surface-tint">FULL_STACK_BUILD</span>
+</div>
+<div class="flex items-center gap-md">
+<span class="inline-flex items-center gap-xs text-caption font-mono text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+          STATUS: STUDENT PROJECT</span>
+<a class="text-caption font-label-md text-primary hover:text-deep-accent transition-colors flex items-center gap-xs" href="#architecture">
+          Jump to Architecture <span class="material-symbols-outlined text-caption">arrow_downward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Hero Header Section -->
+<section class="w-full bg-surface-container-lowest py-xxl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-lg">
+<!-- Breadcrumb / Eyebrow -->
+<div class="flex items-center gap-xs text-primary font-label-md uppercase tracking-widest">
+<span class="material-symbols-outlined text-label-md">account_tree</span>
+<span class="">CASE STUDY / STUDENT HOUSING PLATFORM</span>
+</div>
+<!-- H1 -->
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight max-w-5xl">
+        UniNest — Student Housing Platform</h1>
+<!-- One-line summary -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-4xl leading-relaxed">
+        A full-stack platform that helps out-of-town students find suitable housing near campus and get matched with flatmates who share their interests.</p>
+<!-- Meta Info Grid & Direct Actions -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-md pt-lg bg-surface-container-low p-xl rounded-xl">
+<div class="flex flex-col gap-xs">
+<span class="font-caption text-caption text-outline uppercase tracking-wider font-mono">Role</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Backend Developer</span>
+<span class="text-caption text-on-surface-variant">Team of 3 · ASP.NET Core API</span>
+</div>
+<div class="flex flex-col gap-xs">
+<span class="font-caption text-caption text-outline uppercase tracking-wider font-mono">Timeline</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">DEPI Program Project</span>
+<span class="text-caption text-on-surface-variant">EELU Fayoum students</span>
+</div>
+<div class="flex flex-col gap-xs"><span class="font-caption text-caption text-outline uppercase tracking-wider font-mono">Stack</span><span class="font-label-md text-label-md text-on-surface font-semibold truncate">ASP.NET Core, C#, SQL Server</span><span class="text-caption text-on-surface-variant">JavaScript, HTML5, CSS3</span></div>
+<div class="flex flex-col gap-xs">
+<span class="font-caption text-caption text-outline uppercase tracking-wider font-mono">Deliverables</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Web Platform, REST APIs</span>
+<span class="text-caption text-on-surface-variant">SRS document & presentation</span>
+</div>
+</div>
+<!-- CTA Row -->
+<div class="flex flex-wrap items-center gap-md pt-sm">
+<a class="inline-flex items-center justify-center gap-xs bg-primary-container text-on-primary px-xl py-md rounded-DEFAULT font-label-md text-label-md hover:bg-deep-accent transition-all shadow-sm" href="#" rel="noopener noreferrer" target="_blank">
+<span class="">Live Demo</span>
+<span class="material-symbols-outlined text-label-md">north_east</span>
+</a>
+<a class="inline-flex items-center justify-center gap-xs bg-surface-white text-on-surface px-xl py-md rounded-DEFAULT font-label-md text-label-md hover:bg-surface-container transition-all shadow-sm" href="https://github.com/moamenhamoudadev-debug" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-label-md">code</span>
+<span class="">GitHub</span>
+<span class="material-symbols-outlined text-label-md">north_east</span>
+</a>
+<div class="ml-auto hidden lg:flex items-center gap-xs text-caption font-mono text-outline">
+<span class="material-symbols-outlined text-label-md text-primary">verified</span>
+<span class="">FULL STACK BUILD</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Hero / Media Preview -->
+<section class="w-full bg-surface-container py-xxl" id="project-mockups"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl"><div class="flex flex-col gap-xs max-w-3xl"><span class="font-mono text-caption text-primary uppercase tracking-widest font-semibold">APPLICATION SHOWCASE / UI ARTIFACTS</span><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Interface &amp; Core Workflows</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Screenshots of the running application</p></div><div class="grid grid-cols-1 md:grid-cols-2 gap-xl"><div class="flex flex-col bg-surface-white rounded-xl shadow-sm border border-border-subtle overflow-hidden"><div class="bg-surface-container px-md py-sm border-b border-border-subtle flex items-center gap-xs"><span class="w-3 h-3 rounded-full bg-[#ef4444] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#f59e0b] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#10b981] inline-block"></span><span class="ml-sm font-mono text-caption text-outline truncate">uninest.local/home</span></div><div class="overflow-hidden bg-surface-container-low max-h-[380px]"><img src="assets/uninest-home.jpg" alt="UniNest Home &amp; Discovery Portal" class="w-full h-auto object-top object-cover"></div><div class="p-md bg-surface-white border-t border-border-subtle"><p class="font-label-md text-label-md text-on-surface font-semibold">Home &amp; Search — Intuitive student accommodation discovery portal</p><p class="font-caption text-caption text-on-surface-variant mt-1">Hero search with featured listings and a simple three-step how-it-works section.</p></div></div><div class="flex flex-col bg-surface-white rounded-xl shadow-sm border border-border-subtle overflow-hidden"><div class="bg-surface-container px-md py-sm border-b border-border-subtle flex items-center gap-xs"><span class="w-3 h-3 rounded-full bg-[#ef4444] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#f59e0b] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#10b981] inline-block"></span><span class="ml-sm font-mono text-caption text-outline truncate">uninest.local/listings</span></div><div class="overflow-hidden bg-surface-container-low max-h-[380px]"><img src="assets/uninest-listings.jpg" alt="Smart Listings View" class="w-full h-auto object-top object-cover"></div><div class="p-md bg-surface-white border-t border-border-subtle"><p class="font-label-md text-label-md text-on-surface font-semibold">Smart Listings: filters by price, location and room type, cards view and interactive map</p><p class="font-caption text-caption text-on-surface-variant mt-1">Price, location and room-type filters, with room-capacity and Boys Only / Girls Only badges.</p></div></div><div class="flex flex-col bg-surface-white rounded-xl shadow-sm border border-border-subtle overflow-hidden"><div class="bg-surface-container px-md py-sm border-b border-border-subtle flex items-center gap-xs"><span class="w-3 h-3 rounded-full bg-[#ef4444] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#f59e0b] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#10b981] inline-block"></span><span class="ml-sm font-mono text-caption text-outline truncate">uninest.local/register</span></div><div class="overflow-hidden bg-surface-container-low max-h-[380px]"><img src="assets/uninest-register.jpg" alt="Registration Form" class="w-full h-auto object-top object-cover"></div><div class="p-md bg-surface-white border-t border-border-subtle"><p class="font-label-md text-label-md text-on-surface font-semibold">Secure registration for students and property owners</p><p class="font-caption text-caption text-on-surface-variant mt-1">Role-targeted registration with study program, graduation year, and verified terms acceptance.</p></div></div><div class="flex flex-col bg-surface-white rounded-xl shadow-sm border border-border-subtle overflow-hidden"><div class="bg-surface-container px-md py-sm border-b border-border-subtle flex items-center gap-xs"><span class="w-3 h-3 rounded-full bg-[#ef4444] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#f59e0b] inline-block"></span><span class="w-3 h-3 rounded-full bg-[#10b981] inline-block"></span><span class="ml-sm font-mono text-caption text-outline truncate">uninest.local/dashboard</span></div><div class="overflow-hidden bg-surface-container-low max-h-[380px]"><img src="assets/uninest-dashboard.jpg" alt="User Dashboard" class="w-full h-auto object-top object-cover"></div><div class="p-md bg-surface-white border-t border-border-subtle"><p class="font-label-md text-label-md text-on-surface font-semibold">Personal dashboard: favorites, my listings and booking inquiries</p><p class="font-caption text-caption text-on-surface-variant mt-1">Profile hub with My Listings, Favorites, booking inquiries and an admin panel.</p></div></div></div></div></section>
+<!-- Problem & Solution Section (Split Layout) -->
+<section class="w-full bg-surface-white py-xxl border-b border-border-subtle"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl"><div class="flex flex-col gap-xs max-w-3xl"><div class="flex items-center gap-xs text-primary font-mono text-caption font-bold tracking-widest uppercase"><span class="material-symbols-outlined text-label-md">info</span><span class="">OVERVIEW / PRODUCT PROFILE</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">About UniNest</h2><p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">UniNest helps out-of-town university students find suitable housing near campus (Fayoum, Cairo, Alexandria and more). Students set their interests and the site suggests a housing partner who shares them, so living together goes smoothly. Property owners can create an account and upload their apartments, and the system prevents a male and a female from booking the same housing unit.</p></div><div class="grid grid-cols-1 lg:grid-cols-3 gap-xl"><div class="lg:col-span-2 bg-surface-container-low p-xl rounded-xl flex flex-col gap-md"><h3 class="font-headline-md text-headline-md text-on-surface">Platform Capabilities &amp; Key Features</h3><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Built around the student's search and the owner's listing flow:</p><div class="grid grid-cols-1 sm:grid-cols-2 gap-md pt-xs"><div class="flex items-start gap-sm"><span class="material-symbols-outlined text-primary text-label-md mt-1">search</span><div><span class="font-label-md text-label-md text-on-surface font-semibold">Search &amp; Filters</span><p class="font-caption text-caption text-on-surface-variant">Search by title, university, or location with price and room-type filters.</p></div></div><div class="flex items-start gap-sm"><span class="material-symbols-outlined text-primary text-label-md mt-1">favorite</span><div><span class="font-label-md text-label-md text-on-surface font-semibold">Favorites &amp; Inquiries</span><p class="font-caption text-caption text-on-surface-variant">Bookmark prospective apartments and dispatch booking inquiries directly to hosts.</p></div></div><div class="flex items-start gap-sm"><span class="material-symbols-outlined text-primary text-label-md mt-1">manage_accounts</span><div><span class="font-label-md text-label-md text-on-surface font-semibold">User Profiles &amp; Admin Panel</span><p class="font-caption text-caption text-on-surface-variant">User profiles, owners' own listings, and an admin panel.</p></div></div><div class="flex items-start gap-sm"><span class="material-symbols-outlined text-primary text-label-md mt-1">translate</span><div><span class="font-label-md text-label-md text-on-surface font-semibold">Bilingual &amp; Dark Mode</span><p class="font-caption text-caption text-on-surface-variant">Arabic and English bilingual support alongside native system dark mode toggle.</p></div></div><div class="flex items-start gap-sm sm:col-span-2"><span class="material-symbols-outlined text-primary text-label-md mt-1">chat_bubble</span><div><span class="font-label-md text-label-md text-on-surface font-semibold">Chatbot &amp; Quick Contact</span><p class="font-caption text-caption text-on-surface-variant">A small chatbot widget plus quick phone and email contact buttons.</p></div></div></div></div><div class="bg-surface-container p-xl rounded-xl flex flex-col justify-between gap-md"><div class="flex flex-col gap-sm"><div class="flex items-center gap-xs font-mono text-caption text-primary uppercase tracking-wider font-semibold"><span class="material-symbols-outlined text-label-md">layers</span><span class="">TECH STACK &amp; SPECIFICATIONS</span></div><h4 class="font-headline-md text-headline-md text-on-surface">Built With</h4><p class="font-caption text-caption text-on-surface-variant font-mono">Backend engineered with ASP.NET Core &amp; SQL Server.</p><div class="flex flex-wrap gap-xs pt-sm"><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">ASP.NET Core</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">C#</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">SQL Server</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">GitHub Pages</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">REST APIs</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">JavaScript</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">HTML5</span><span class="px-sm py-xs bg-surface-white text-on-surface font-label-md text-caption font-semibold rounded-DEFAULT border border-border-subtle">CSS3</span></div></div><div class="pt-md border-t border-border-subtle flex items-center justify-between text-caption font-mono text-outline"><span class="flex items-center gap-xs"><span class="w-2 h-2 rounded-full bg-[#10b981]"></span> Full Stack</span><span class="">Student Project</span></div></div></div></div></section><section class="w-full bg-surface-white py-xxl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-xl">
+<!-- The Problem -->
+<div class="bg-surface-container-low p-xl rounded-xl flex flex-col gap-md">
+<div class="flex items-center gap-xs text-error font-mono text-caption font-bold tracking-widest uppercase">
+<span class="material-symbols-outlined text-label-md">warning</span>
+<span class="">SECTION 01 / THE CHALLENGE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">The Problem</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Students who move to another city for university struggle to find housing that is affordable, close to campus and a good fit — and often end up sharing with strangers they don't get along with.</p>
+<ul class="flex flex-col gap-sm pt-xs">
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-error text-label-md mt-1">cancel</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Scattered Listings:</strong> Housing offers are spread across social media groups and word of mouth, hard to compare and hard to trust.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-error text-label-md mt-1">cancel</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Incompatible Flatmates:</strong> Students are placed with strangers who have different habits and interests.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-error text-label-md mt-1">cancel</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>No Booking Rules:</strong> Nothing stops a male and a female from ending up booked into the same housing unit.</span>
+</li>
+</ul>
+</div>
+<!-- The Solution -->
+<div class="bg-surface-container p-xl rounded-xl flex flex-col gap-md">
+<div class="flex items-center gap-xs text-primary font-mono text-caption font-bold tracking-widest uppercase">
+<span class="material-symbols-outlined text-label-md">verified</span>
+<span class="">SECTION 02 / THE ARCHITECTURAL ANSWER</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">The Solution</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            A single platform where students search and filter listings, set their interests to find a compatible housing partner, and owners create accounts to publish their apartments.</p>
+<ul class="flex flex-col gap-sm pt-xs">
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-primary text-label-md mt-1">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Interest-Based Matching:</strong> Students list their interests and get matched with flatmates who share them.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-primary text-label-md mt-1">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Gender-Aware Booking:</strong> The system blocks mixed-gender bookings of the same housing unit.</span>
+</li>
+<li class="flex items-start gap-sm">
+<span class="material-symbols-outlined text-primary text-label-md mt-1">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface"><strong>Owner Accounts:</strong> Owners upload and manage their apartments from their own profile.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: System Architecture -->
+<section class="w-full bg-surface-container-low py-xxl" id="architecture">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl">
+<div class="flex flex-col gap-xs max-w-3xl">
+<span class="font-mono text-caption text-primary uppercase tracking-widest font-semibold">SECTION 03 / BLUEPRINT &amp; TOPOLOGY</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">System Architecture</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          A simple layered setup: a JavaScript frontend talks to an ASP.NET Core API backed by a SQL Server database.</p>
+</div>
+<!-- Architectural Breakdown Diagram Flow -->
+<div class="bg-surface-white p-xl rounded-xl shadow-sm flex flex-col gap-lg">
+<!-- Layer 1: Client -->
+<div class="flex flex-col lg:flex-row items-center justify-between gap-md p-lg bg-surface-container rounded-lg">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 bg-primary text-on-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined">devices</span>
+</div>
+<div>
+<div class="flex items-center gap-xs">
+<span class="font-mono text-caption text-primary font-bold">CLIENT LAYER</span>
+<span class="px-xs py-0.5 bg-surface-white font-mono text-caption text-on-surface-variant rounded-DEFAULT">GitHub Pages</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Client: HTML5 / CSS3 / JavaScript</h3>
+<p class="font-caption text-caption text-on-surface-variant">Home, listings, property details, login/registration, profile and add-property pages, with Arabic/English and dark mode.</p>
+</div>
+</div>
+
+</div>
+<!-- Connector 1 -->
+<div class="flex items-center justify-center gap-md py-xs text-primary font-mono text-caption">
+<span class="material-symbols-outlined animate-bounce">arrow_downward</span>
+<span class="bg-surface-container-high px-md py-xs rounded-DEFAULT font-semibold">HTTPS / REST API (JSON)</span>
+<span class="material-symbols-outlined animate-bounce">arrow_downward</span>
+</div>
+<!-- Layer 2: API Gateway & Logic -->
+<div class="flex flex-col lg:flex-row items-center justify-between gap-md p-lg bg-surface-container-high rounded-lg">
+<div class="flex items-center gap-md">
+<div class="w-12 h-12 bg-deep-accent text-on-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined">hub</span>
+</div>
+<div>
+<div class="flex items-center gap-xs">
+<span class="font-mono text-caption text-deep-accent font-bold">LOGIC LAYER</span>
+<span class="px-xs py-0.5 bg-surface-white font-mono text-caption text-on-surface-variant rounded-DEFAULT">ASP.NET Core</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">API &amp; Business Logic: ASP.NET Core (C#)</h3>
+<p class="font-caption text-caption text-on-surface-variant">Handles accounts, listings, favorites, flatmate matching and the booking rules, including the gender restriction.</p>
+</div>
+</div>
+
+</div>
+<!-- Connector 2 -->
+<div class="flex items-center justify-center gap-md py-xs text-primary font-mono text-caption">
+<span class="material-symbols-outlined animate-bounce">arrow_downward</span>
+<span class="bg-surface-container-high px-md py-xs rounded-DEFAULT font-semibold">Data access / SQL queries</span>
+<span class="material-symbols-outlined animate-bounce">arrow_downward</span>
+</div>
+<!-- Layer 3: Persistence & Cache -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-md">
+<div class="p-lg bg-surface-container rounded-lg flex items-center gap-md">
+<div class="w-12 h-12 bg-on-surface text-surface-white rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined">database</span>
+</div>
+<div class="min-w-0">
+<span class="font-mono text-caption text-primary font-bold">PERSISTENCE</span>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold truncate">SQL Server</h4>
+<p class="font-caption text-caption text-on-surface-variant">Relational, database-first schema: Users, Properties, Amenities and Favorites.</p>
+</div>
+</div>
+<div class="p-lg bg-surface-container rounded-lg flex items-center gap-md">
+<div class="w-12 h-12 bg-on-surface text-surface-white rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined">cloud_sync</span>
+</div>
+<div class="min-w-0">
+<span class="font-mono text-caption text-primary font-bold">INFRASTRUCTURE</span>
+<h4 class="font-label-md text-label-md text-on-surface font-semibold truncate">Hosting: GitHub Pages</h4>
+<p class="font-caption text-caption text-on-surface-variant">The frontend is published as a static site on GitHub Pages.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<!-- Section 4: Key Engineering Features -->
+<section class="w-full bg-surface-white py-xxl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl">
+<div class="flex flex-col gap-xs max-w-2xl">
+<span class="font-mono text-caption text-primary uppercase tracking-widest font-semibold">SECTION 04 / CORE CAPABILITIES</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Key Engineering Features</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          The features that set UniNest apart from a plain listings site.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<!-- Feature 1 -->
+<div class="bg-surface-container-low p-xl rounded-xl flex flex-col justify-between gap-md group hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-sm">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 bg-primary/10 text-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">group</span>
+</div>
+<span class="px-sm py-xs bg-surface-white text-primary font-mono text-caption font-bold rounded-DEFAULT">INTEREST_MATCHING</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Interest-Based Flatmate Matching</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Students pick their interests, and UniNest suggests housing partners who share them, so flatmates get along from day one.</p>
+</div>
+
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-low p-xl rounded-xl flex flex-col justify-between gap-md group hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-sm">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 bg-primary/10 text-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">wc</span>
+</div>
+<span class="px-sm py-xs bg-surface-white text-primary font-mono text-caption font-bold rounded-DEFAULT">GENDER_AWARE_BOOKING</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Gender-Aware Booking Rule</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The system blocks a male and a female from booking the same housing unit, and listings can be marked Boys Only or Girls Only.</p>
+</div>
+
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-low p-xl rounded-xl flex flex-col justify-between gap-md group hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-sm">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 bg-primary/10 text-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">add_home</span>
+</div>
+<span class="px-sm py-xs bg-surface-white text-primary font-mono text-caption font-bold rounded-DEFAULT">OWNER_LISTINGS</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Owner Accounts &amp; Property Upload</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Property owners create an account and add apartments through a submission form; students browse them with price, location and room-type filters.</p>
+</div>
+
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-container-low p-xl rounded-xl flex flex-col justify-between gap-md group hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-sm">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 bg-primary/10 text-primary rounded-DEFAULT flex items-center justify-center">
+<span class="material-symbols-outlined text-headline-md">database</span>
+</div>
+<span class="px-sm py-xs bg-surface-white text-primary font-mono text-caption font-bold rounded-DEFAULT">DATABASE_FIRST</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Database-First Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              The SQL Server schema (Users, Properties, Amenities, Favorites) was designed first, and the ASP.NET Core API was built around it.</p>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Measured Results & Impact (Highlight Stats Strip) -->
+<section class="w-full bg-inverse-surface text-inverse-on-surface py-xxl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl">
+<div class="flex flex-col gap-xs max-w-2xl">
+<span class="font-mono text-caption text-primary-fixed uppercase tracking-widest font-semibold">SECTION 05 / OUTCOME</span>
+<h2 class="font-headline-lg text-headline-lg text-surface-white tracking-tight">What Works Today</h2>
+<p class="font-body-md text-body-md text-surface-variant/80">
+          A working full-stack application covering the main student and owner journeys.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-lg">
+<!-- Stat 1 -->
+<div class="p-xl bg-inverse-surface/80 rounded-xl flex flex-col gap-xs border border-surface-variant/10">
+<div class="font-display-lg text-display-lg text-primary-fixed font-mono tracking-tight font-extrabold">Full-stack</div>
+<div class="font-label-md text-label-md text-surface-white font-semibold">Working Application</div>
+<div class="font-caption text-caption text-surface-variant/70">Frontend, ASP.NET Core API and SQL Server working together.</div>
+</div>
+<!-- Stat 2 -->
+<div class="p-xl bg-inverse-surface/80 rounded-xl flex flex-col gap-xs border border-surface-variant/10">
+<div class="font-display-lg text-display-lg text-primary-fixed font-mono tracking-tight font-extrabold">2 roles</div>
+<div class="font-label-md text-label-md text-surface-white font-semibold">Two User Journeys</div>
+<div class="font-caption text-caption text-surface-variant/70">Students search and match; owners list and manage apartments.</div>
+</div>
+
+
+</div>
+</div>
+</section>
+<!-- Section 6: What I'd Improve Next -->
+<section class="w-full bg-surface-white py-xxl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col gap-xl">
+<div class="flex flex-col gap-xs max-w-2xl">
+<span class="font-mono text-caption text-primary uppercase tracking-widest font-semibold">SECTION 06 / ITERATION ROADMAP</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">What I'd Improve Next</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          UniNest is still growing. Ideas for the next version:</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<!-- Improvement Item 1 -->
+<div class="p-xl bg-surface-container-low rounded-xl flex flex-col gap-md">
+<div class="flex items-center gap-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-mono text-caption font-bold">01</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Smarter Flatmate Matching</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Extend the interest-based matching with more preferences (study habits, sleep schedule, faculty) and a simple compatibility score.</p>
+<div class="flex items-center gap-xs font-mono text-caption text-outline">
+<span class="material-symbols-outlined text-label-md text-primary">psychology</span>
+<span class="">MATCHING / PREFERENCES</span>
+</div>
+</div>
+<!-- Improvement Item 2 -->
+<div class="p-xl bg-surface-container-low rounded-xl flex flex-col gap-md">
+<div class="flex items-center gap-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center font-mono text-caption font-bold">02</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Live Chat Between Students and Owners</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Grow the small chatbot into live messaging between students and property owners, with notifications for new inquiries.</p>
+<div class="flex items-center gap-xs font-mono text-caption text-outline">
+<span class="material-symbols-outlined text-label-md text-primary">chat</span>
+<span class="">LIVE CHAT / NOTIFICATIONS</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Case Study Bottom Navigation Footer -->
+<section class="w-full bg-surface-container border-t border-border-subtle py-xl">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop flex flex-col sm:flex-row items-center justify-between gap-md">
+<a class="inline-flex items-center gap-xs font-label-md text-label-md text-on-surface hover:text-primary transition-colors py-xs" data-path="projects" href="projects.html">
+<span class="material-symbols-outlined text-label-md">arrow_back</span>
+<span class="">Back to Projects</span>
+</a>
+<div class="font-mono text-caption text-outline uppercase tracking-wider hidden md:block">
+        ARCHITECTURAL CASE STUDY / PORTFOLIO ARCHIVE
+      </div>
+
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container py-xxl border-t border-border-subtle"><div class="max-w-7xl mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-lg"><div class="font-headline-md text-headline-md text-on-surface tracking-tight">Moamen Hammouda <span class="text-on-surface-variant font-body-md text-body-md font-normal font-mono">— DEV_ARCHITECT</span></div><div class="flex gap-xl"><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="https://github.com/moamenhamoudadev-debug" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer" target="_blank">GitHub</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="https://www.linkedin.com/in/moamen-hammouda-24607535a/" target="_blank" rel="noopener noreferrer" rel="noopener noreferrer" target="_blank">LinkedIn</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#" rel="noopener noreferrer">Resume</a></div><p class="font-caption text-caption text-on-surface-variant">© 2026 Engineering Portfolio. All rights reserved.</p></div></footer>
+
+<nav class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-inverse-surface flex justify-around items-center text-[12px] font-label-md py-3 border-t border-white/10"><a class="px-1 py-1 text-inverse-on-surface/70" href="index.html">Overview</a><a class="px-1 py-1 text-inverse-on-surface/70" href="experience.html">Experience</a><a class="px-1 py-1 text-on-primary font-bold" href="projects.html">Projects</a><a class="px-1 py-1 text-inverse-on-surface/70" href="services.html">Services</a><a class="px-1 py-1 text-inverse-on-surface/70" href="about.html">About</a><a class="px-1 py-1 text-inverse-on-surface/70" href="contact.html">Contact</a></nav></body></html>
